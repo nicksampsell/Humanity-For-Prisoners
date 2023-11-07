@@ -1,0 +1,42 @@
+# Ignore theme-specific files and directories
+/node_modules/
+/dist/
+/.cache/
+/.history/
+/.DS_Store
+*.log
+
+# Ignore NPM and Yarn specific files
+/package-lock.json
+/yarn.lock
+
+# Ignore compiled CSS and JavaScript
+/public/css/
+/public/js/
+
+# Ignore environment configuration
+.env
+.env.local
+.env.*.local
+
+# Ignore log files and other build artifacts
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/build/
+
+# Ignore Editor files
+.DS_Store
+
+# Ignore IDE-specific configuration files
+.idea/
+.vscode/
+
+# Ignore system and temporary files
+Thumbs.db
+desktop.ini
+.DS_Store
+*.swp
+*.swo
+*.swn
