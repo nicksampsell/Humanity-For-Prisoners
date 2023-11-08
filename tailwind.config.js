@@ -4,13 +4,17 @@ module.exports = {
   theme: {
     colors: {
       transparent: 'transparent',
-      sage: '607f80',
-      brown: '463a2e',
-      coral: 'ea9e7a',
-      earthyGreen: '9a9b7a',
-      mutedBlueGreen: '56757a',
-      mutedGray: '7383a3',
-      warmBeige: 'c9b59d'
+      sage: '#607f80',
+      brown: '#463a2e',
+      coral: '#ea9e7a',
+      earthyGreen: '#9a9b7a',
+      mutedBlueGreen: '#56757a',
+      mutedGray: '#7383a3',
+      warmBeige: '#c9b59d',
+      beigeLight: '#f8ccb7',
+      beigeMedium: '#f29c73',
+      black: '#000',
+      white: '#FFF'
     },
     extend: {},
   },
