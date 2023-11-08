@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.socialMediaIcons span
+{
+    display: none;
+}
+#logo span
+{
+    display: none;
+}
+a#logo 
+{
+    display: block;
+    width: 463px;
+    height: 180px;
+    background-image: url('./img/hfp_white.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
