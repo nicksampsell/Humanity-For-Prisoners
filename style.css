@@ -705,6 +705,10 @@ select {
   --tw-backdrop-sepia:  ;
 }
 
+.m-3 {
+  margin: 0.75rem;
+}
+
 .my-2 {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
@@ -712,6 +716,18 @@ select {
 
 .mb-2 {
   margin-bottom: 0.5rem;
+}
+
+.me-5 {
+  margin-inline-end: 1.25rem;
+}
+
+.me-3 {
+  margin-inline-end: 0.75rem;
+}
+
+.block {
+  display: block;
 }
 
 .flex {
@@ -722,6 +738,14 @@ select {
   height: 100%;
 }
 
+.h-\[30px\] {
+  height: 30px;
+}
+
+.h-\[40px\] {
+  height: 40px;
+}
+
 .w-1\/2 {
   width: 50%;
 }
@@ -729,6 +753,18 @@ select {
 .w-fit {
   width: -moz-fit-content;
   width: fit-content;
+}
+
+.w-\[30px\] {
+  width: 30px;
+}
+
+.w-\[40px\] {
+  width: 40px;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .max-w-fit {
@@ -744,6 +780,10 @@ select {
   flex-direction: column;
 }
 
+.place-items-center {
+  place-items: center;
+}
+
 .content-center {
   align-content: center;
 }
@@ -756,6 +796,14 @@ select {
   justify-content: flex-start;
 }
 
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
 .justify-between {
   justify-content: space-between;
 }
@@ -764,6 +812,10 @@ select {
   --tw-space-x-reverse: 0;
   margin-right: calc(0.75rem * var(--tw-space-x-reverse));
   margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.rounded {
+  border-radius: 0.25rem;
 }
 
 .rounded-full {
@@ -791,12 +843,37 @@ select {
   border-color: rgb(242 156 115 / var(--tw-border-opacity));
 }
 
+.bg-\[\#4267B2\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(66 103 178 / var(--tw-bg-opacity));
+}
+
 .bg-beigeLight {
   --tw-bg-opacity: 1;
   background-color: rgb(248 204 183 / var(--tw-bg-opacity));
 }
 
 .bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#fb0074\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(251 0 116 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#FF0000\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 0 0 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#f68221\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(246 130 33 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#000\] {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
@@ -815,6 +892,10 @@ select {
   --tw-gradient-to: #4d696d var(--tw-gradient-to-position);
 }
 
+.p-2 {
+  padding: 0.5rem;
+}
+
 .p-5 {
   padding: 1.25rem;
 }
@@ -823,9 +904,18 @@ select {
   text-align: center;
 }
 
+.align-middle {
+  vertical-align: middle;
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .text-white {
