@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}","./**/*.php"],
+  content: ["./src/**/*.{html,js}","./**/*.php","./node_modules/flowbite/**/*.js"],
   theme: {
     colors: {
       transparent: 'transparent',
@@ -79,13 +79,29 @@ module.exports = {
     '800': '#892a23',
     '900': '#6f251f',
     '950': '#3b100f',
-  }    
+  },
+  'firefly': {
+    '50': '#f5f8f7',
+    '100': '#dee9e8',
+    '200': '#bdd2d0',
+    '300': '#94b4b2',
+    '400': '#6d9493',
+    '500': '#537979',
+    '600': '#416060',
+    '700': '#374d4e',
+    '800': '#2f3f40',
+    '900': '#2a3737',
+    '950': '#1b2728',
+    DEFAULT: '#1b2728'
+},
+  
     },
     extend: {},
   },
   plugins: [
     require('@tailwindcss/forms'),
-    require('@tailwindcss/typography')
+    require('@tailwindcss/typography'),
+    require('flowbite/plugin')
   ],
 }
 

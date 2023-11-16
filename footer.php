@@ -7,5 +7,8 @@
       'script>'
   );
 </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.1.1/flowbite.min.js"></script>
+
+<script src="<?php bloginfo('template_directory'); ?>/flowbite.js"></script>
 </body>
 </html>
